@@ -1,0 +1,25 @@
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#names {
+  color: #3f6b6e;
+  text-align: center;
+}
+#ids {
+  color: #789782;
+  text-align: center;
+}
+#tutorial {
+  color: #a0846a;
+  text-align: center;
+}
+body {
+  background-color: #dfd6b9;
+}
